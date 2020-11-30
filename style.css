@@ -1,0 +1,120 @@
+/* reset css */
+html {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+
+}
+
+li {
+  list-style:none;
+}
+
+button:hover {
+  cursor:pointer;
+}
+
+a:hover {
+  text-decoration:none;
+  color: #FF0000;
+}
+
+.colorewhite {
+  color:white;
+}
+
+.colorered {
+  color:#FF0000;
+}
+
+.coloregrey {
+  color:#616161;
+}
+
+.coloregrey:hover {
+  color: #FF0000;
+}
+
+.bg-red {
+  background-color:#FF0000;
+}
+
+
+
+h1 {
+  color: white;
+  text-shadow: -1px 0 #616161, 0 1px #616161, 1px 0 #616161, 0 -1px #616161;
+}
+
+
+
+.bg-grey {
+  background-color: #616161;
+}
+
+
+
+@media (max-width: 576px) {
+
+  .coloregreymedia {
+    color:white;
+  }
+
+  .bg-menu {
+    background-color: #616161;
+    padding: 1% 0 1.2% 0;
+  }
+
+
+  #logo {
+    text-align:center;
+    padding-bottom: 3%;
+  }
+
+
+
+  #bandiera {
+    width: 10%;
+    margin:auto;
+    }
+
+  #testohome {
+    width: 80%;
+    padding-top: 5%;
+  }
+}
+
+@media (max-width: 767px) {
+
+  footer {
+    text-align:center;
+  }
+
+}
+
+@media (max-width: 991px) {
+
+
+
+  #testohome {
+    width: 80%;
+    padding-top: 5%;
+  }
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(../font/medel.ttf);
+
+}
+
+div {
+  font-family: myFirstFont;
+  font-size: 18px;
+}
+
+#copy {
+  font-size: 12px;
+}
